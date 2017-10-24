@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import Model from '../models.json';
-import Makes from '../makes.json';
+
 
 
 export default class SearchForm extends Component {
 
   renderListItems() {
-    this.props.data.map(item => {
+    this.props.data.map(function(item) {
       return <option value={item.name}>{item.name}</option>
     })
   }

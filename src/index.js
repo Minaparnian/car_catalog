@@ -5,8 +5,8 @@ import  { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import 'preact/devtools';
 
-import Home from './components/Home';
-import Search from './components/Search';
+import Home from './pages/Home';
+import Search from './pages/Search';
 
 const Routes = (
   <Router>

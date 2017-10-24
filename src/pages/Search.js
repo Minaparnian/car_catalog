@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from './Nav';
+import Nav from '../components/Nav';
 
 export default class Search extends Component {
   constructor(props){
@@ -10,9 +10,9 @@ export default class Search extends Component {
 
   render() {
     return(
-      <section className="home">
+      <section>
         <Nav/>
-        <section>
+        <section className="home">
          <h1>Choose your car</h1>
            <form action="/action_page.php">
               <select name="cars">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../components/Nav';
+import SearchForm from '../components/SearchForm';
 
 export default class Search extends Component {
   constructor(props){
@@ -14,16 +15,10 @@ export default class Search extends Component {
         <Nav/>
         <section className="home">
          <h1>Choose your car</h1>
-           <form action="/action_page.php">
-              <select name="cars">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="fiat">Fiat</option>
-                <option value="audi">Audi</option>
-              </select>
+              <SearchForm />
               <br />
               <input type="submit"/>
-           </form>
+
         </section>
       </section>
 

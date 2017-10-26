@@ -1,12 +1,12 @@
 # car_catalog
 
-### Description
+## Description
 build an app to browse a car catalog. The app have a primary navigation bar containing two items: Home and Search.
 
 I havent used create react app to make the application I made the repository from the scratch.
 use npm init -y to make a package.json file
 
-#### install bellow packages with this command
+### install bellow packages with these commands
 npm install --save-dev webpack webpack-dev-server babel-core babel-loader babel-preset-es2015 
 babel-preset-env babel-plugin-transform-react-jsx babel-plugin-transform-object-rest-spread
 
@@ -16,24 +16,24 @@ babel-preset-env babel-plugin-transform-react-jsx babel-plugin-transform-object-
 * babel-preset-react: React preset for Babel. Just for Babel to understand React terms like JSX
 * serve: HTTP server
 
-#### Using webpack by touch new file webpack.config.js
+### Using webpack by touch new file webpack.config.js
 thats where webpack look for it configuration and 
 all in javascript
 
-#### Use preact becouse is faster and smaller but work the same for make this one work we should 
-add this command in : npm install --save preact preact-compat 
+### Use preact becouse is faster and smaller but work the same as react 
+for make this one work we should add this command in : npm install --save preact preact-compat 
 
 
-#### Set up react-router for routing
+### Set up react-router for routing
 npm install —save react-router react-router-dom
 react router is writen in jsx (jsx is the easy way of writing html)
 
-### Difficalties
+## Difficalties
 
-*  had trouble how to pass ajax data down to components in react.
-1- Unsuccesful solution: install a node package (npm i json-loader --save-dev) 
+1-  had trouble how to pass ajax data down to components in react.
+* Unsuccesful solution: install a node package (npm i json-loader --save-dev) 
 
-2- add json and json-loader to the 
+* add json and json-loader to the 
 webpack.config.js file like this: 
 module = {
   module: {
@@ -45,13 +45,13 @@ module = {
     ]
   }
 }
-3- Import the json file on the op of component
+* Import the json file on the op of component
 import Makes from './makes.json';
 
-4- In the constructor ask for the variable like 
+* In the constructor ask for the variable like 
 Makes: Makes
 
-* displaying models based on the selected make
-* details page for the selected car model
+2- displaying models based on the selected make
+3- details page for the selected car model
 
   

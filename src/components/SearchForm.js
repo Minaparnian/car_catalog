@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Makes from '../makes.json';
+
 
 
 

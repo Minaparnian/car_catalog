@@ -21,4 +21,4 @@ const Routes = (
 );
 
 
-ReactDOM.render(Routes, document.body);
+ReactDOM.render(Routes, document.getElementById('container'));

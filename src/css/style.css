@@ -54,6 +54,9 @@ body {
   font-size: 20px;
   color:#444444;
 }
+h1 {
+	text-align: center;
+}
 
 
 ul {
@@ -84,4 +87,21 @@ li a:hover {
 .home {
 	width: 80%;
 	margin: 30px auto;
+	text-align: center;
+}
+
+.select-box {
+	border: 1px solid black;
+	width: 30%;
+	height: 30px;
+	display: block;
+	margin: 20px auto;
+}
+
+.gray-box {
+	background-color: #333;
+	padding: 20px;
+	color: white;
+	border-radius: 1em;
+
 }
